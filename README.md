@@ -94,3 +94,6 @@ iOS自主封装的第三方支付接口合集静态库，App调用支付接口�
     }];
     
     
+想要程序正常运行请注意修改以下来个相关的配制：
+https://github.com/iRobin520/iOS_PaymentKit/blob/master/PaymentDemo/Info.plist
+https://github.com/iRobin520/iOS_PaymentKit/blob/master/PaymentDemo/SHPaymentKit/SHPaymentKit/SHPaymentKitDefs.h
