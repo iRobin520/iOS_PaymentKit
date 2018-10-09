@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C86D36FA1B7D98000030611C /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C86D36FD1B7D98000030611C /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				C86D36FE1B7D98060030611C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C82A67232016D78E00CE3E10 /* SHPayPalPay.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A67222016D78E00CE3E10 /* SHPayPalPay.m */; };
+		C82A672A20170F3D00CE3E10 /* SHPayPalPay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C82A67212016D78E00CE3E10 /* SHPayPalPay.h */; };
+		C82A68CB201824C100CE3E10 /* BTErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6832201824C100CE3E10 /* BTErrors.m */; };
+		C82A68CC201824C100CE3E10 /* BTAnalyticsMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6833201824C100CE3E10 /* BTAnalyticsMetadata.m */; };
+		C82A68CD201824C100CE3E10 /* BTClientToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6834201824C100CE3E10 /* BTClientToken.m */; };
+		C82A68CE201824C100CE3E10 /* BTJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6836201824C100CE3E10 /* BTJSON.m */; };
+		C82A68CF201824C100CE3E10 /* BTBinData.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6837201824C100CE3E10 /* BTBinData.m */; };
+		C82A68D0201824C100CE3E10 /* BTURLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6838201824C100CE3E10 /* BTURLUtils.m */; };
+		C82A68D1201824C100CE3E10 /* BTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6839201824C100CE3E10 /* BTAPIClient.m */; };
+		C82A68D2201824C100CE3E10 /* BTAnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A683A201824C100CE3E10 /* BTAnalyticsService.m */; };
+		C82A68D3201824C100CE3E10 /* BTPaymentMethodNonceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A683B201824C100CE3E10 /* BTPaymentMethodNonceParser.m */; };
+		C82A68D4201824C100CE3E10 /* BTAppSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A683C201824C100CE3E10 /* BTAppSwitch.m */; };
+		C82A68D5201824C100CE3E10 /* BTPaymentMethodNonce.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A683D201824C100CE3E10 /* BTPaymentMethodNonce.m */; };
+		C82A68D6201824C100CE3E10 /* BTTokenizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A683E201824C100CE3E10 /* BTTokenizationService.m */; };
+		C82A68D7201824C100CE3E10 /* BTHTTPErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A683F201824C100CE3E10 /* BTHTTPErrors.m */; };
+		C82A68D8201824C100CE3E10 /* BTHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6840201824C100CE3E10 /* BTHTTP.m */; };
+		C82A68D9201824C100CE3E10 /* BTAPIHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6841201824C100CE3E10 /* BTAPIHTTP.m */; };
+		C82A68DA201824C100CE3E10 /* BTPostalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6842201824C100CE3E10 /* BTPostalAddress.m */; };
+		C82A68DB201824C100CE3E10 /* BTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6855201824C100CE3E10 /* BTLogger.m */; };
+		C82A68DC201824C100CE3E10 /* BTKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6856201824C100CE3E10 /* BTKeychain.m */; };
+		C82A68DD201824C100CE3E10 /* BTAPIPinnedCertificates.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6857201824C100CE3E10 /* BTAPIPinnedCertificates.m */; };
+		C82A68DE201824C100CE3E10 /* BTClientMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A685A201824C100CE3E10 /* BTClientMetadata.m */; };
+		C82A68DF201824C100CE3E10 /* BTConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A685F201824C100CE3E10 /* BTConfiguration.m */; };
+		C82A68E0201824C100CE3E10 /* PPDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6862201824C100CE3E10 /* PPDataCollector.m */; };
+		C82A68E1201824C100CE3E10 /* libPPRiskComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C82A6868201824C100CE3E10 /* libPPRiskComponent.a */; };
+		C82A68E2201824C100CE3E10 /* BTPayPalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A686B201824C100CE3E10 /* BTPayPalRequest.m */; };
+		C82A68E3201824C100CE3E10 /* BTPayPalCreditFinancingAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A686E201824C100CE3E10 /* BTPayPalCreditFinancingAmount.m */; };
+		C82A68E4201824C100CE3E10 /* BTPayPalAccountNonce.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A686F201824C100CE3E10 /* BTPayPalAccountNonce.m */; };
+		C82A68E5201824C100CE3E10 /* BTPayPalRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6877201824C100CE3E10 /* BTPayPalRequestFactory.m */; };
+		C82A68E6201824C100CE3E10 /* PPOTSimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6879201824C100CE3E10 /* PPOTSimpleKeychain.m */; };
+		C82A68E7201824C100CE3E10 /* PPOTJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A687A201824C100CE3E10 /* PPOTJSONHelper.m */; };
+		C82A68E8201824C100CE3E10 /* PPOTTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A687B201824C100CE3E10 /* PPOTTime.m */; };
+		C82A68E9201824C100CE3E10 /* PPOTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A687C201824C100CE3E10 /* PPOTDevice.m */; };
+		C82A68EA201824C100CE3E10 /* PPOTPinnedCertificates.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A687D201824C100CE3E10 /* PPOTPinnedCertificates.m */; };
+		C82A68EB201824C100CE3E10 /* PPOTString.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A688A201824C100CE3E10 /* PPOTString.m */; };
+		C82A68EC201824C100CE3E10 /* PPOTEncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A688B201824C100CE3E10 /* PPOTEncryptionHelper.m */; };
+		C82A68ED201824C100CE3E10 /* PPOTURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A688C201824C100CE3E10 /* PPOTURLSession.m */; };
+		C82A68EE201824C100CE3E10 /* PPOTMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A688E201824C100CE3E10 /* PPOTMacros.m */; };
+		C82A68EF201824C100CE3E10 /* BTPayPalDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A688F201824C100CE3E10 /* BTPayPalDriver.m */; };
+		C82A68F0201824C100CE3E10 /* BTPayPalCreditFinancing.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6890201824C100CE3E10 /* BTPayPalCreditFinancing.m */; };
+		C82A68F1201824C100CE3E10 /* PPOTConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6896201824C100CE3E10 /* PPOTConfiguration.m */; };
+		C82A68F2201824C100CE3E10 /* PPOTOAuth2AppSwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6898201824C100CE3E10 /* PPOTOAuth2AppSwitchRequest.m */; };
+		C82A68F3201824C100CE3E10 /* PPOTBillingAgreementRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A6899201824C100CE3E10 /* PPOTBillingAgreementRequest.m */; };
+		C82A68F4201824C100CE3E10 /* PPOTOAuth2BrowserSwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A689C201824C100CE3E10 /* PPOTOAuth2BrowserSwitchRequest.m */; };
+		C82A68F5201824C100CE3E10 /* PPOTCheckoutAppSwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A689D201824C100CE3E10 /* PPOTCheckoutAppSwitchRequest.m */; };
+		C82A68F6201824C100CE3E10 /* PPOTRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A689E201824C100CE3E10 /* PPOTRequestFactory.m */; };
+		C82A68F7201824C100CE3E10 /* PPOTOAuth2SwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A689F201824C100CE3E10 /* PPOTOAuth2SwitchRequest.m */; };
+		C82A68F8201824C100CE3E10 /* PPOTCheckoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68A0201824C100CE3E10 /* PPOTCheckoutRequest.m */; };
+		C82A68F9201824C100CE3E10 /* PPOTAppSwitchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68A2201824C100CE3E10 /* PPOTAppSwitchUtil.m */; };
+		C82A68FA201824C100CE3E10 /* PPOTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68A3201824C100CE3E10 /* PPOTRequest.m */; };
+		C82A68FB201824C100CE3E10 /* PPOTResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68A4201824C100CE3E10 /* PPOTResult.m */; };
+		C82A68FC201824C100CE3E10 /* PPOTAppSwitchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68A6201824C100CE3E10 /* PPOTAppSwitchResponse.m */; };
+		C82A68FD201824C100CE3E10 /* PPOTSwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68A7201824C100CE3E10 /* PPOTSwitchRequest.m */; };
+		C82A68FE201824C100CE3E10 /* PPOTCheckoutSwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68A9201824C100CE3E10 /* PPOTCheckoutSwitchRequest.m */; };
+		C82A68FF201824C100CE3E10 /* PPOTPersistentRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68AA201824C100CE3E10 /* PPOTPersistentRequestData.m */; };
+		C82A6900201824C100CE3E10 /* PPOTCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68AB201824C100CE3E10 /* PPOTCore.m */; };
+		C82A6901201824C100CE3E10 /* PPOTError.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68AF201824C100CE3E10 /* PPOTError.m */; };
+		C82A6902201824C100CE3E10 /* PPOTAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68B0201824C100CE3E10 /* PPOTAuthorizationRequest.m */; };
+		C82A6903201824C100CE3E10 /* PPOTCheckoutBrowserSwitchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68B8201824C100CE3E10 /* PPOTCheckoutBrowserSwitchRequest.m */; };
+		C82A6904201824C100CE3E10 /* PPFPTITracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68C2201824C100CE3E10 /* PPFPTITracker.m */; };
+		C82A6905201824C100CE3E10 /* PPFPTIData.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68C3201824C100CE3E10 /* PPFPTIData.m */; };
+		C82A6906201824C100CE3E10 /* PPOTAnalyticsTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68C5201824C100CE3E10 /* PPOTAnalyticsTracker.m */; };
+		C82A6907201824C100CE3E10 /* BTConfiguration+PayPal.m in Sources */ = {isa = PBXBuildFile; fileRef = C82A68CA201824C100CE3E10 /* BTConfiguration+PayPal.m */; };
+		C86D38A41B7DE7E20030611C /* SHUnionPay.m in Sources */ = {isa = PBXBuildFile; fileRef = C86D38A31B7DE7E20030611C /* SHUnionPay.m */; };
+		C86D38A71B7DE8270030611C /* SHAliPay.m in Sources */ = {isa = PBXBuildFile; fileRef = C86D38A61B7DE8270030611C /* SHAliPay.m */; };
+		C86D38AB1B817AA10030611C /* SHUnionPay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C86D38A21B7DE7E20030611C /* SHUnionPay.h */; };
+		C89C2F4E1BF306600000D2CD /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D574091B7D90AC0054D0F9 /* AlipaySDK.framework */; };
+		C8D573F01B7D8DF00054D0F9 /* SHPaymentKitManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8D573EF1B7D8DF00054D0F9 /* SHPaymentKitManager.h */; };
+		C8D573F21B7D8DF00054D0F9 /* SHPaymentKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D573F11B7D8DF00054D0F9 /* SHPaymentKitManager.m */; };
+		C8D573F81B7D8DF00054D0F9 /* libSHPaymentKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D573EC1B7D8DF00054D0F9 /* libSHPaymentKit.a */; };
+		C8E7E1B71B86B9C7006A4561 /* SHPaymentKitDefs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8E7E1B51B86B621006A4561 /* SHPaymentKitDefs.h */; };
+		C8E7E1B81B86CF6B006A4561 /* SHAliPay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C86D38A51B7DE8270030611C /* SHAliPay.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8D573F91B7D8DF00054D0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D573E41B7D8DF00054D0F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D573EB1B7D8DF00054D0F9;
+			remoteInfo = SHPaymentKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8D573EA1B7D8DF00054D0F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C82A672A20170F3D00CE3E10 /* SHPayPalPay.h in CopyFiles */,
+				C8E7E1B81B86CF6B006A4561 /* SHAliPay.h in CopyFiles */,
+				C8E7E1B71B86B9C7006A4561 /* SHPaymentKitDefs.h in CopyFiles */,
+				C86D38AB1B817AA10030611C /* SHUnionPay.h in CopyFiles */,
+				C8D573F01B7D8DF00054D0F9 /* SHPaymentKitManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C82A67212016D78E00CE3E10 /* SHPayPalPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHPayPalPay.h; sourceTree = "<group>"; };
+		C82A67222016D78E00CE3E10 /* SHPayPalPay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPayPalPay.m; sourceTree = "<group>"; };
+		C82A682E201824C100CE3E10 /* BTKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTKeychain.h; sourceTree = "<group>"; };
+		C82A682F201824C100CE3E10 /* BTAPIHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAPIHTTP.h; sourceTree = "<group>"; };
+		C82A6830201824C100CE3E10 /* BTHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHTTP.h; sourceTree = "<group>"; };
+		C82A6831201824C100CE3E10 /* BTLogger_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLogger_Internal.h; sourceTree = "<group>"; };
+		C82A6832201824C100CE3E10 /* BTErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTErrors.m; sourceTree = "<group>"; };
+		C82A6833201824C100CE3E10 /* BTAnalyticsMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAnalyticsMetadata.m; sourceTree = "<group>"; };
+		C82A6834201824C100CE3E10 /* BTClientToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTClientToken.m; sourceTree = "<group>"; };
+		C82A6835201824C100CE3E10 /* BTAPIPinnedCertificates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAPIPinnedCertificates.h; sourceTree = "<group>"; };
+		C82A6836201824C100CE3E10 /* BTJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTJSON.m; sourceTree = "<group>"; };
+		C82A6837201824C100CE3E10 /* BTBinData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBinData.m; sourceTree = "<group>"; };
+		C82A6838201824C100CE3E10 /* BTURLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTURLUtils.m; sourceTree = "<group>"; };
+		C82A6839201824C100CE3E10 /* BTAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAPIClient.m; sourceTree = "<group>"; };
+		C82A683A201824C100CE3E10 /* BTAnalyticsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAnalyticsService.m; sourceTree = "<group>"; };
+		C82A683B201824C100CE3E10 /* BTPaymentMethodNonceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPaymentMethodNonceParser.m; sourceTree = "<group>"; };
+		C82A683C201824C100CE3E10 /* BTAppSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAppSwitch.m; sourceTree = "<group>"; };
+		C82A683D201824C100CE3E10 /* BTPaymentMethodNonce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPaymentMethodNonce.m; sourceTree = "<group>"; };
+		C82A683E201824C100CE3E10 /* BTTokenizationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTokenizationService.m; sourceTree = "<group>"; };
+		C82A683F201824C100CE3E10 /* BTHTTPErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHTTPErrors.m; sourceTree = "<group>"; };
+		C82A6840201824C100CE3E10 /* BTHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHTTP.m; sourceTree = "<group>"; };
+		C82A6841201824C100CE3E10 /* BTAPIHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAPIHTTP.m; sourceTree = "<group>"; };
+		C82A6842201824C100CE3E10 /* BTPostalAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPostalAddress.m; sourceTree = "<group>"; };
+		C82A6844201824C100CE3E10 /* BTLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLogger.h; sourceTree = "<group>"; };
+		C82A6845201824C100CE3E10 /* BTPostalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPostalAddress.h; sourceTree = "<group>"; };
+		C82A6846201824C100CE3E10 /* BraintreeCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeCore.h; sourceTree = "<group>"; };
+		C82A6847201824C100CE3E10 /* BTClientMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTClientMetadata.h; sourceTree = "<group>"; };
+		C82A6848201824C100CE3E10 /* BTConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTConfiguration.h; sourceTree = "<group>"; };
+		C82A6849201824C100CE3E10 /* BTEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEnums.h; sourceTree = "<group>"; };
+		C82A684A201824C100CE3E10 /* BTViewControllerPresentingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTViewControllerPresentingDelegate.h; sourceTree = "<group>"; };
+		C82A684B201824C100CE3E10 /* BTJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTJSON.h; sourceTree = "<group>"; };
+		C82A684C201824C100CE3E10 /* BTClientToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTClientToken.h; sourceTree = "<group>"; };
+		C82A684D201824C100CE3E10 /* BTErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTErrors.h; sourceTree = "<group>"; };
+		C82A684E201824C100CE3E10 /* BTAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAPIClient.h; sourceTree = "<group>"; };
+		C82A684F201824C100CE3E10 /* BTBinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBinData.h; sourceTree = "<group>"; };
+		C82A6850201824C100CE3E10 /* BTHTTPErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHTTPErrors.h; sourceTree = "<group>"; };
+		C82A6851201824C100CE3E10 /* BTTokenizationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTokenizationService.h; sourceTree = "<group>"; };
+		C82A6852201824C100CE3E10 /* BTPaymentMethodNonce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPaymentMethodNonce.h; sourceTree = "<group>"; };
+		C82A6853201824C100CE3E10 /* BTAppSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAppSwitch.h; sourceTree = "<group>"; };
+		C82A6854201824C100CE3E10 /* BTPaymentMethodNonceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPaymentMethodNonceParser.h; sourceTree = "<group>"; };
+		C82A6855201824C100CE3E10 /* BTLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLogger.m; sourceTree = "<group>"; };
+		C82A6856201824C100CE3E10 /* BTKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTKeychain.m; sourceTree = "<group>"; };
+		C82A6857201824C100CE3E10 /* BTAPIPinnedCertificates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAPIPinnedCertificates.m; sourceTree = "<group>"; };
+		C82A6858201824C100CE3E10 /* BTAnalyticsMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAnalyticsMetadata.h; sourceTree = "<group>"; };
+		C82A6859201824C100CE3E10 /* BTURLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTURLUtils.h; sourceTree = "<group>"; };
+		C82A685A201824C100CE3E10 /* BTClientMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTClientMetadata.m; sourceTree = "<group>"; };
+		C82A685B201824C100CE3E10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82A685C201824C100CE3E10 /* BTAnalyticsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAnalyticsService.h; sourceTree = "<group>"; };
+		C82A685D201824C100CE3E10 /* Braintree-Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Braintree-Version.h"; sourceTree = "<group>"; };
+		C82A685E201824C100CE3E10 /* BTAPIClient_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAPIClient_Internal.h; sourceTree = "<group>"; };
+		C82A685F201824C100CE3E10 /* BTConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTConfiguration.m; sourceTree = "<group>"; };
+		C82A6862201824C100CE3E10 /* PPDataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDataCollector.m; sourceTree = "<group>"; };
+		C82A6863201824C100CE3E10 /* PPDataCollector_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDataCollector_Internal.h; sourceTree = "<group>"; };
+		C82A6865201824C100CE3E10 /* PayPalDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalDataCollector.h; sourceTree = "<group>"; };
+		C82A6866201824C100CE3E10 /* PPDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDataCollector.h; sourceTree = "<group>"; };
+		C82A6868201824C100CE3E10 /* libPPRiskComponent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPPRiskComponent.a; sourceTree = "<group>"; };
+		C82A6869201824C100CE3E10 /* PPRCClientMetadataIDProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRCClientMetadataIDProvider.h; sourceTree = "<group>"; };
+		C82A686A201824C100CE3E10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82A686B201824C100CE3E10 /* BTPayPalRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalRequest.m; sourceTree = "<group>"; };
+		C82A686C201824C100CE3E10 /* BTPayPalRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPayPalRequestFactory.h; sourceTree = "<group>"; };
+		C82A686D201824C100CE3E10 /* BTPayPalAccountNonce_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPayPalAccountNonce_Internal.h; sourceTree = "<group>"; };
+		C82A686E201824C100CE3E10 /* BTPayPalCreditFinancingAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalCreditFinancingAmount.m; sourceTree = "<group>"; };
+		C82A686F201824C100CE3E10 /* BTPayPalAccountNonce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalAccountNonce.m; sourceTree = "<group>"; };
+		C82A6871201824C100CE3E10 /* BTPayPalAccountNonce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPayPalAccountNonce.h; sourceTree = "<group>"; };
+		C82A6872201824C100CE3E10 /* BTConfiguration+PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTConfiguration+PayPal.h"; sourceTree = "<group>"; };
+		C82A6873201824C100CE3E10 /* BTPayPalCreditFinancing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPayPalCreditFinancing.h; sourceTree = "<group>"; };
+		C82A6874201824C100CE3E10 /* BTPayPalDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPayPalDriver.h; sourceTree = "<group>"; };
+		C82A6875201824C100CE3E10 /* BTPayPalRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPayPalRequest.h; sourceTree = "<group>"; };
+		C82A6876201824C100CE3E10 /* BraintreePayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreePayPal.h; sourceTree = "<group>"; };
+		C82A6877201824C100CE3E10 /* BTPayPalRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalRequestFactory.m; sourceTree = "<group>"; };
+		C82A6879201824C100CE3E10 /* PPOTSimpleKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTSimpleKeychain.m; sourceTree = "<group>"; };
+		C82A687A201824C100CE3E10 /* PPOTJSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTJSONHelper.m; sourceTree = "<group>"; };
+		C82A687B201824C100CE3E10 /* PPOTTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTTime.m; sourceTree = "<group>"; };
+		C82A687C201824C100CE3E10 /* PPOTDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTDevice.m; sourceTree = "<group>"; };
+		C82A687D201824C100CE3E10 /* PPOTPinnedCertificates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTPinnedCertificates.m; sourceTree = "<group>"; };
+		C82A687F201824C100CE3E10 /* PPOTPinnedCertificates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTPinnedCertificates.h; sourceTree = "<group>"; };
+		C82A6880201824C100CE3E10 /* PPOTEncryptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTEncryptionHelper.h; sourceTree = "<group>"; };
+		C82A6881201824C100CE3E10 /* PPOTVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTVersion.h; sourceTree = "<group>"; };
+		C82A6882201824C100CE3E10 /* PPOTString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTString.h; sourceTree = "<group>"; };
+		C82A6883201824C100CE3E10 /* PPOTURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTURLSession.h; sourceTree = "<group>"; };
+		C82A6884201824C100CE3E10 /* PPOTMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTMacros.h; sourceTree = "<group>"; };
+		C82A6885201824C100CE3E10 /* PPOTSimpleKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTSimpleKeychain.h; sourceTree = "<group>"; };
+		C82A6886201824C100CE3E10 /* PPOTJSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTJSONHelper.h; sourceTree = "<group>"; };
+		C82A6887201824C100CE3E10 /* PPOTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTDevice.h; sourceTree = "<group>"; };
+		C82A6888201824C100CE3E10 /* PayPalUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalUtils.h; sourceTree = "<group>"; };
+		C82A6889201824C100CE3E10 /* PPOTTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTTime.h; sourceTree = "<group>"; };
+		C82A688A201824C100CE3E10 /* PPOTString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTString.m; sourceTree = "<group>"; };
+		C82A688B201824C100CE3E10 /* PPOTEncryptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTEncryptionHelper.m; sourceTree = "<group>"; };
+		C82A688C201824C100CE3E10 /* PPOTURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTURLSession.m; sourceTree = "<group>"; };
+		C82A688D201824C100CE3E10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82A688E201824C100CE3E10 /* PPOTMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTMacros.m; sourceTree = "<group>"; };
+		C82A688F201824C100CE3E10 /* BTPayPalDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalDriver.m; sourceTree = "<group>"; };
+		C82A6890201824C100CE3E10 /* BTPayPalCreditFinancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalCreditFinancing.m; sourceTree = "<group>"; };
+		C82A6893201824C100CE3E10 /* PPOTConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTConfiguration.h; sourceTree = "<group>"; };
+		C82A6894201824C100CE3E10 /* PPDefaultConfigurationJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDefaultConfigurationJSON.h; sourceTree = "<group>"; };
+		C82A6895201824C100CE3E10 /* otc-config.ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "otc-config.ios.json"; sourceTree = "<group>"; };
+		C82A6896201824C100CE3E10 /* PPOTConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTConfiguration.m; sourceTree = "<group>"; };
+		C82A6898201824C100CE3E10 /* PPOTOAuth2AppSwitchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTOAuth2AppSwitchRequest.m; sourceTree = "<group>"; };
+		C82A6899201824C100CE3E10 /* PPOTBillingAgreementRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTBillingAgreementRequest.m; sourceTree = "<group>"; };
+		C82A689A201824C100CE3E10 /* PPOTCore_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTCore_Internal.h; sourceTree = "<group>"; };
+		C82A689B201824C100CE3E10 /* PPOTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTError.h; sourceTree = "<group>"; };
+		C82A689C201824C100CE3E10 /* PPOTOAuth2BrowserSwitchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTOAuth2BrowserSwitchRequest.m; sourceTree = "<group>"; };
+		C82A689D201824C100CE3E10 /* PPOTCheckoutAppSwitchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTCheckoutAppSwitchRequest.m; sourceTree = "<group>"; };
+		C82A689E201824C100CE3E10 /* PPOTRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTRequestFactory.m; sourceTree = "<group>"; };
+		C82A689F201824C100CE3E10 /* PPOTOAuth2SwitchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTOAuth2SwitchRequest.m; sourceTree = "<group>"; };
+		C82A68A0201824C100CE3E10 /* PPOTCheckoutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTCheckoutRequest.m; sourceTree = "<group>"; };
+		C82A68A1201824C100CE3E10 /* PPOTRequest_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTRequest_Internal.h; sourceTree = "<group>"; };
+		C82A68A2201824C100CE3E10 /* PPOTAppSwitchUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTAppSwitchUtil.m; sourceTree = "<group>"; };
+		C82A68A3201824C100CE3E10 /* PPOTRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTRequest.m; sourceTree = "<group>"; };
+		C82A68A4201824C100CE3E10 /* PPOTResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTResult.m; sourceTree = "<group>"; };
+		C82A68A5201824C100CE3E10 /* PPOTCheckoutRequest_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTCheckoutRequest_Internal.h; sourceTree = "<group>"; };
+		C82A68A6201824C100CE3E10 /* PPOTAppSwitchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTAppSwitchResponse.m; sourceTree = "<group>"; };
+		C82A68A7201824C100CE3E10 /* PPOTSwitchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTSwitchRequest.m; sourceTree = "<group>"; };
+		C82A68A8201824C100CE3E10 /* PPOTCheckoutBrowserSwitchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTCheckoutBrowserSwitchRequest.h; sourceTree = "<group>"; };
+		C82A68A9201824C100CE3E10 /* PPOTCheckoutSwitchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTCheckoutSwitchRequest.m; sourceTree = "<group>"; };
+		C82A68AA201824C100CE3E10 /* PPOTPersistentRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTPersistentRequestData.m; sourceTree = "<group>"; };
+		C82A68AB201824C100CE3E10 /* PPOTCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTCore.m; sourceTree = "<group>"; };
+		C82A68AC201824C100CE3E10 /* PPOTOAuth2SwitchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTOAuth2SwitchRequest.h; sourceTree = "<group>"; };
+		C82A68AD201824C100CE3E10 /* PPOTCheckoutAppSwitchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTCheckoutAppSwitchRequest.h; sourceTree = "<group>"; };
+		C82A68AE201824C100CE3E10 /* PPOTOAuth2BrowserSwitchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTOAuth2BrowserSwitchRequest.h; sourceTree = "<group>"; };
+		C82A68AF201824C100CE3E10 /* PPOTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTError.m; sourceTree = "<group>"; };
+		C82A68B0201824C100CE3E10 /* PPOTAuthorizationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTAuthorizationRequest.m; sourceTree = "<group>"; };
+		C82A68B1201824C100CE3E10 /* PPOTOAuth2AppSwitchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTOAuth2AppSwitchRequest.h; sourceTree = "<group>"; };
+		C82A68B2201824C100CE3E10 /* PPOTAppSwitchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTAppSwitchResponse.h; sourceTree = "<group>"; };
+		C82A68B3201824C100CE3E10 /* PPOTResult_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTResult_Internal.h; sourceTree = "<group>"; };
+		C82A68B4201824C100CE3E10 /* PPOTAuthorizationRequest_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTAuthorizationRequest_Internal.h; sourceTree = "<group>"; };
+		C82A68B5201824C100CE3E10 /* PPOTAppSwitchUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTAppSwitchUtil.h; sourceTree = "<group>"; };
+		C82A68B6201824C100CE3E10 /* PPOTPersistentRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTPersistentRequestData.h; sourceTree = "<group>"; };
+		C82A68B7201824C100CE3E10 /* PPOTCheckoutSwitchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTCheckoutSwitchRequest.h; sourceTree = "<group>"; };
+		C82A68B8201824C100CE3E10 /* PPOTCheckoutBrowserSwitchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTCheckoutBrowserSwitchRequest.m; sourceTree = "<group>"; };
+		C82A68B9201824C100CE3E10 /* PPOTSwitchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTSwitchRequest.h; sourceTree = "<group>"; };
+		C82A68BB201824C100CE3E10 /* PPOTRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTRequestFactory.h; sourceTree = "<group>"; };
+		C82A68BC201824C100CE3E10 /* PPOTResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTResult.h; sourceTree = "<group>"; };
+		C82A68BD201824C100CE3E10 /* PPOTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTRequest.h; sourceTree = "<group>"; };
+		C82A68BE201824C100CE3E10 /* PayPalOneTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalOneTouch.h; sourceTree = "<group>"; };
+		C82A68BF201824C100CE3E10 /* PPOTCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTCore.h; sourceTree = "<group>"; };
+		C82A68C0201824C100CE3E10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82A68C2201824C100CE3E10 /* PPFPTITracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPFPTITracker.m; sourceTree = "<group>"; };
+		C82A68C3201824C100CE3E10 /* PPFPTIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPFPTIData.m; sourceTree = "<group>"; };
+		C82A68C4201824C100CE3E10 /* PPOTAnalyticsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTAnalyticsDefines.h; sourceTree = "<group>"; };
+		C82A68C5201824C100CE3E10 /* PPOTAnalyticsTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOTAnalyticsTracker.m; sourceTree = "<group>"; };
+		C82A68C6201824C100CE3E10 /* PPFPTITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPFPTITracker.h; sourceTree = "<group>"; };
+		C82A68C7201824C100CE3E10 /* PPOTAnalyticsTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOTAnalyticsTracker.h; sourceTree = "<group>"; };
+		C82A68C8201824C100CE3E10 /* PPFPTIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPFPTIData.h; sourceTree = "<group>"; };
+		C82A68C9201824C100CE3E10 /* BTPayPalDriver_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPayPalDriver_Internal.h; sourceTree = "<group>"; };
+		C82A68CA201824C100CE3E10 /* BTConfiguration+PayPal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTConfiguration+PayPal.m"; sourceTree = "<group>"; };
+		C85F17FA1C86D17D009DE5EE /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		C86D38A21B7DE7E20030611C /* SHUnionPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUnionPay.h; sourceTree = "<group>"; };
+		C86D38A31B7DE7E20030611C /* SHUnionPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUnionPay.m; sourceTree = "<group>"; };
+		C86D38A51B7DE8270030611C /* SHAliPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAliPay.h; sourceTree = "<group>"; };
+		C86D38A61B7DE8270030611C /* SHAliPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAliPay.m; sourceTree = "<group>"; };
+		C890EA921C868F710077E3DD /* UPAPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
+		C890EA931C868F710077E3DD /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
+		C89C2F4A1BF2EB490000D2CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C89C2F4C1BF2EB5A0000D2CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C8D573EC1B7D8DF00054D0F9 /* libSHPaymentKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSHPaymentKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D573EF1B7D8DF00054D0F9 /* SHPaymentKitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHPaymentKitManager.h; sourceTree = "<group>"; };
+		C8D573F11B7D8DF00054D0F9 /* SHPaymentKitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPaymentKitManager.m; sourceTree = "<group>"; };
+		C8D573F71B7D8DF00054D0F9 /* SHPaymentKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHPaymentKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D573FD1B7D8DF00054D0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D574091B7D90AC0054D0F9 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		C8E7E1B51B86B621006A4561 /* SHPaymentKitDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPaymentKitDefs.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8D573E91B7D8DF00054D0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82A68E1201824C100CE3E10 /* libPPRiskComponent.a in Frameworks */,
+				C89C2F4E1BF306600000D2CD /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D573F41B7D8DF00054D0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D573F81B7D8DF00054D0F9 /* libSHPaymentKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82A682C201824C100CE3E10 /* BrainTree */ = {
+			isa = PBXGroup;
+			children = (
+				C82A682D201824C100CE3E10 /* BraintreeCore */,
+				C82A6860201824C100CE3E10 /* BraintreePayPal */,
+			);
+			path = BrainTree;
+			sourceTree = "<group>";
+		};
+		C82A682D201824C100CE3E10 /* BraintreeCore */ = {
+			isa = PBXGroup;
+			children = (
+				C82A682E201824C100CE3E10 /* BTKeychain.h */,
+				C82A682F201824C100CE3E10 /* BTAPIHTTP.h */,
+				C82A6830201824C100CE3E10 /* BTHTTP.h */,
+				C82A6831201824C100CE3E10 /* BTLogger_Internal.h */,
+				C82A6832201824C100CE3E10 /* BTErrors.m */,
+				C82A6833201824C100CE3E10 /* BTAnalyticsMetadata.m */,
+				C82A6834201824C100CE3E10 /* BTClientToken.m */,
+				C82A6835201824C100CE3E10 /* BTAPIPinnedCertificates.h */,
+				C82A6836201824C100CE3E10 /* BTJSON.m */,
+				C82A6837201824C100CE3E10 /* BTBinData.m */,
+				C82A6838201824C100CE3E10 /* BTURLUtils.m */,
+				C82A6839201824C100CE3E10 /* BTAPIClient.m */,
+				C82A683A201824C100CE3E10 /* BTAnalyticsService.m */,
+				C82A683B201824C100CE3E10 /* BTPaymentMethodNonceParser.m */,
+				C82A683C201824C100CE3E10 /* BTAppSwitch.m */,
+				C82A683D201824C100CE3E10 /* BTPaymentMethodNonce.m */,
+				C82A683E201824C100CE3E10 /* BTTokenizationService.m */,
+				C82A683F201824C100CE3E10 /* BTHTTPErrors.m */,
+				C82A6840201824C100CE3E10 /* BTHTTP.m */,
+				C82A6841201824C100CE3E10 /* BTAPIHTTP.m */,
+				C82A6842201824C100CE3E10 /* BTPostalAddress.m */,
+				C82A6843201824C100CE3E10 /* Public */,
+				C82A6855201824C100CE3E10 /* BTLogger.m */,
+				C82A6856201824C100CE3E10 /* BTKeychain.m */,
+				C82A6857201824C100CE3E10 /* BTAPIPinnedCertificates.m */,
+				C82A6858201824C100CE3E10 /* BTAnalyticsMetadata.h */,
+				C82A6859201824C100CE3E10 /* BTURLUtils.h */,
+				C82A685A201824C100CE3E10 /* BTClientMetadata.m */,
+				C82A685B201824C100CE3E10 /* Info.plist */,
+				C82A685C201824C100CE3E10 /* BTAnalyticsService.h */,
+				C82A685D201824C100CE3E10 /* Braintree-Version.h */,
+				C82A685E201824C100CE3E10 /* BTAPIClient_Internal.h */,
+				C82A685F201824C100CE3E10 /* BTConfiguration.m */,
+			);
+			path = BraintreeCore;
+			sourceTree = "<group>";
+		};
+		C82A6843201824C100CE3E10 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6844201824C100CE3E10 /* BTLogger.h */,
+				C82A6845201824C100CE3E10 /* BTPostalAddress.h */,
+				C82A6846201824C100CE3E10 /* BraintreeCore.h */,
+				C82A6847201824C100CE3E10 /* BTClientMetadata.h */,
+				C82A6848201824C100CE3E10 /* BTConfiguration.h */,
+				C82A6849201824C100CE3E10 /* BTEnums.h */,
+				C82A684A201824C100CE3E10 /* BTViewControllerPresentingDelegate.h */,
+				C82A684B201824C100CE3E10 /* BTJSON.h */,
+				C82A684C201824C100CE3E10 /* BTClientToken.h */,
+				C82A684D201824C100CE3E10 /* BTErrors.h */,
+				C82A684E201824C100CE3E10 /* BTAPIClient.h */,
+				C82A684F201824C100CE3E10 /* BTBinData.h */,
+				C82A6850201824C100CE3E10 /* BTHTTPErrors.h */,
+				C82A6851201824C100CE3E10 /* BTTokenizationService.h */,
+				C82A6852201824C100CE3E10 /* BTPaymentMethodNonce.h */,
+				C82A6853201824C100CE3E10 /* BTAppSwitch.h */,
+				C82A6854201824C100CE3E10 /* BTPaymentMethodNonceParser.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C82A6860201824C100CE3E10 /* BraintreePayPal */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6861201824C100CE3E10 /* PayPalDataCollector */,
+				C82A686B201824C100CE3E10 /* BTPayPalRequest.m */,
+				C82A686C201824C100CE3E10 /* BTPayPalRequestFactory.h */,
+				C82A686D201824C100CE3E10 /* BTPayPalAccountNonce_Internal.h */,
+				C82A686E201824C100CE3E10 /* BTPayPalCreditFinancingAmount.m */,
+				C82A686F201824C100CE3E10 /* BTPayPalAccountNonce.m */,
+				C82A6870201824C100CE3E10 /* Public */,
+				C82A6877201824C100CE3E10 /* BTPayPalRequestFactory.m */,
+				C82A6878201824C100CE3E10 /* PayPalUtils */,
+				C82A688F201824C100CE3E10 /* BTPayPalDriver.m */,
+				C82A6890201824C100CE3E10 /* BTPayPalCreditFinancing.m */,
+				C82A6891201824C100CE3E10 /* PayPalOneTouch */,
+				C82A68C9201824C100CE3E10 /* BTPayPalDriver_Internal.h */,
+				C82A68CA201824C100CE3E10 /* BTConfiguration+PayPal.m */,
+			);
+			path = BraintreePayPal;
+			sourceTree = "<group>";
+		};
+		C82A6861201824C100CE3E10 /* PayPalDataCollector */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6862201824C100CE3E10 /* PPDataCollector.m */,
+				C82A6863201824C100CE3E10 /* PPDataCollector_Internal.h */,
+				C82A6864201824C100CE3E10 /* Public */,
+				C82A6867201824C100CE3E10 /* Risk */,
+				C82A686A201824C100CE3E10 /* Info.plist */,
+			);
+			path = PayPalDataCollector;
+			sourceTree = "<group>";
+		};
+		C82A6864201824C100CE3E10 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6865201824C100CE3E10 /* PayPalDataCollector.h */,
+				C82A6866201824C100CE3E10 /* PPDataCollector.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C82A6867201824C100CE3E10 /* Risk */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6868201824C100CE3E10 /* libPPRiskComponent.a */,
+				C82A6869201824C100CE3E10 /* PPRCClientMetadataIDProvider.h */,
+			);
+			path = Risk;
+			sourceTree = "<group>";
+		};
+		C82A6870201824C100CE3E10 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6871201824C100CE3E10 /* BTPayPalAccountNonce.h */,
+				C82A6872201824C100CE3E10 /* BTConfiguration+PayPal.h */,
+				C82A6873201824C100CE3E10 /* BTPayPalCreditFinancing.h */,
+				C82A6874201824C100CE3E10 /* BTPayPalDriver.h */,
+				C82A6875201824C100CE3E10 /* BTPayPalRequest.h */,
+				C82A6876201824C100CE3E10 /* BraintreePayPal.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C82A6878201824C100CE3E10 /* PayPalUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6879201824C100CE3E10 /* PPOTSimpleKeychain.m */,
+				C82A687A201824C100CE3E10 /* PPOTJSONHelper.m */,
+				C82A687B201824C100CE3E10 /* PPOTTime.m */,
+				C82A687C201824C100CE3E10 /* PPOTDevice.m */,
+				C82A687D201824C100CE3E10 /* PPOTPinnedCertificates.m */,
+				C82A687E201824C100CE3E10 /* Public */,
+				C82A688A201824C100CE3E10 /* PPOTString.m */,
+				C82A688B201824C100CE3E10 /* PPOTEncryptionHelper.m */,
+				C82A688C201824C100CE3E10 /* PPOTURLSession.m */,
+				C82A688D201824C100CE3E10 /* Info.plist */,
+				C82A688E201824C100CE3E10 /* PPOTMacros.m */,
+			);
+			path = PayPalUtils;
+			sourceTree = "<group>";
+		};
+		C82A687E201824C100CE3E10 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C82A687F201824C100CE3E10 /* PPOTPinnedCertificates.h */,
+				C82A6880201824C100CE3E10 /* PPOTEncryptionHelper.h */,
+				C82A6881201824C100CE3E10 /* PPOTVersion.h */,
+				C82A6882201824C100CE3E10 /* PPOTString.h */,
+				C82A6883201824C100CE3E10 /* PPOTURLSession.h */,
+				C82A6884201824C100CE3E10 /* PPOTMacros.h */,
+				C82A6885201824C100CE3E10 /* PPOTSimpleKeychain.h */,
+				C82A6886201824C100CE3E10 /* PPOTJSONHelper.h */,
+				C82A6887201824C100CE3E10 /* PPOTDevice.h */,
+				C82A6888201824C100CE3E10 /* PayPalUtils.h */,
+				C82A6889201824C100CE3E10 /* PPOTTime.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C82A6891201824C100CE3E10 /* PayPalOneTouch */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6892201824C100CE3E10 /* Configuration */,
+				C82A6897201824C100CE3E10 /* Models */,
+				C82A68BA201824C100CE3E10 /* Public */,
+				C82A68C0201824C100CE3E10 /* Info.plist */,
+				C82A68C1201824C100CE3E10 /* Analytics */,
+			);
+			path = PayPalOneTouch;
+			sourceTree = "<group>";
+		};
+		C82A6892201824C100CE3E10 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6893201824C100CE3E10 /* PPOTConfiguration.h */,
+				C82A6894201824C100CE3E10 /* PPDefaultConfigurationJSON.h */,
+				C82A6895201824C100CE3E10 /* otc-config.ios.json */,
+				C82A6896201824C100CE3E10 /* PPOTConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		C82A6897201824C100CE3E10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6898201824C100CE3E10 /* PPOTOAuth2AppSwitchRequest.m */,
+				C82A6899201824C100CE3E10 /* PPOTBillingAgreementRequest.m */,
+				C82A689A201824C100CE3E10 /* PPOTCore_Internal.h */,
+				C82A689B201824C100CE3E10 /* PPOTError.h */,
+				C82A689C201824C100CE3E10 /* PPOTOAuth2BrowserSwitchRequest.m */,
+				C82A689D201824C100CE3E10 /* PPOTCheckoutAppSwitchRequest.m */,
+				C82A689E201824C100CE3E10 /* PPOTRequestFactory.m */,
+				C82A689F201824C100CE3E10 /* PPOTOAuth2SwitchRequest.m */,
+				C82A68A0201824C100CE3E10 /* PPOTCheckoutRequest.m */,
+				C82A68A1201824C100CE3E10 /* PPOTRequest_Internal.h */,
+				C82A68A2201824C100CE3E10 /* PPOTAppSwitchUtil.m */,
+				C82A68A3201824C100CE3E10 /* PPOTRequest.m */,
+				C82A68A4201824C100CE3E10 /* PPOTResult.m */,
+				C82A68A5201824C100CE3E10 /* PPOTCheckoutRequest_Internal.h */,
+				C82A68A6201824C100CE3E10 /* PPOTAppSwitchResponse.m */,
+				C82A68A7201824C100CE3E10 /* PPOTSwitchRequest.m */,
+				C82A68A8201824C100CE3E10 /* PPOTCheckoutBrowserSwitchRequest.h */,
+				C82A68A9201824C100CE3E10 /* PPOTCheckoutSwitchRequest.m */,
+				C82A68AA201824C100CE3E10 /* PPOTPersistentRequestData.m */,
+				C82A68AB201824C100CE3E10 /* PPOTCore.m */,
+				C82A68AC201824C100CE3E10 /* PPOTOAuth2SwitchRequest.h */,
+				C82A68AD201824C100CE3E10 /* PPOTCheckoutAppSwitchRequest.h */,
+				C82A68AE201824C100CE3E10 /* PPOTOAuth2BrowserSwitchRequest.h */,
+				C82A68AF201824C100CE3E10 /* PPOTError.m */,
+				C82A68B0201824C100CE3E10 /* PPOTAuthorizationRequest.m */,
+				C82A68B1201824C100CE3E10 /* PPOTOAuth2AppSwitchRequest.h */,
+				C82A68B2201824C100CE3E10 /* PPOTAppSwitchResponse.h */,
+				C82A68B3201824C100CE3E10 /* PPOTResult_Internal.h */,
+				C82A68B4201824C100CE3E10 /* PPOTAuthorizationRequest_Internal.h */,
+				C82A68B5201824C100CE3E10 /* PPOTAppSwitchUtil.h */,
+				C82A68B6201824C100CE3E10 /* PPOTPersistentRequestData.h */,
+				C82A68B7201824C100CE3E10 /* PPOTCheckoutSwitchRequest.h */,
+				C82A68B8201824C100CE3E10 /* PPOTCheckoutBrowserSwitchRequest.m */,
+				C82A68B9201824C100CE3E10 /* PPOTSwitchRequest.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C82A68BA201824C100CE3E10 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C82A68BB201824C100CE3E10 /* PPOTRequestFactory.h */,
+				C82A68BC201824C100CE3E10 /* PPOTResult.h */,
+				C82A68BD201824C100CE3E10 /* PPOTRequest.h */,
+				C82A68BE201824C100CE3E10 /* PayPalOneTouch.h */,
+				C82A68BF201824C100CE3E10 /* PPOTCore.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C82A68C1201824C100CE3E10 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				C82A68C2201824C100CE3E10 /* PPFPTITracker.m */,
+				C82A68C3201824C100CE3E10 /* PPFPTIData.m */,
+				C82A68C4201824C100CE3E10 /* PPOTAnalyticsDefines.h */,
+				C82A68C5201824C100CE3E10 /* PPOTAnalyticsTracker.m */,
+				C82A68C6201824C100CE3E10 /* PPFPTITracker.h */,
+				C82A68C7201824C100CE3E10 /* PPOTAnalyticsTracker.h */,
+				C82A68C8201824C100CE3E10 /* PPFPTIData.h */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		C8D573E31B7D8DF00054D0F9 = {
+			isa = PBXGroup;
+			children = (
+				C89C2F4C1BF2EB5A0000D2CD /* Security.framework */,
+				C89C2F4A1BF2EB490000D2CD /* SystemConfiguration.framework */,
+				C8D574061B7D90AC0054D0F9 /* SDKs */,
+				C8D573EE1B7D8DF00054D0F9 /* SHPaymentKit */,
+				C8D573FB1B7D8DF00054D0F9 /* SHPaymentKitTests */,
+				C8D573ED1B7D8DF00054D0F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8D573ED1B7D8DF00054D0F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8D573EC1B7D8DF00054D0F9 /* libSHPaymentKit.a */,
+				C8D573F71B7D8DF00054D0F9 /* SHPaymentKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8D573EE1B7D8DF00054D0F9 /* SHPaymentKit */ = {
+			isa = PBXGroup;
+			children = (
+				C8E7E1B51B86B621006A4561 /* SHPaymentKitDefs.h */,
+				C86D38A21B7DE7E20030611C /* SHUnionPay.h */,
+				C86D38A31B7DE7E20030611C /* SHUnionPay.m */,
+				C86D38A51B7DE8270030611C /* SHAliPay.h */,
+				C86D38A61B7DE8270030611C /* SHAliPay.m */,
+				C82A67212016D78E00CE3E10 /* SHPayPalPay.h */,
+				C82A67222016D78E00CE3E10 /* SHPayPalPay.m */,
+				C8D573EF1B7D8DF00054D0F9 /* SHPaymentKitManager.h */,
+				C8D573F11B7D8DF00054D0F9 /* SHPaymentKitManager.m */,
+			);
+			path = SHPaymentKit;
+			sourceTree = "<group>";
+		};
+		C8D573FB1B7D8DF00054D0F9 /* SHPaymentKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D573FC1B7D8DF00054D0F9 /* Supporting Files */,
+			);
+			path = SHPaymentKitTests;
+			sourceTree = "<group>";
+		};
+		C8D573FC1B7D8DF00054D0F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D573FD1B7D8DF00054D0F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8D574061B7D90AC0054D0F9 /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				C82A682C201824C100CE3E10 /* BrainTree */,
+				C8D574071B7D90AC0054D0F9 /* AliPay */,
+				C8D5746E1B7D90AC0054D0F9 /* UnionPay */,
+			);
+			path = SDKs;
+			sourceTree = "<group>";
+		};
+		C8D574071B7D90AC0054D0F9 /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				C8D574091B7D90AC0054D0F9 /* AlipaySDK.framework */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		C8D5746E1B7D90AC0054D0F9 /* UnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				C8D5746F1B7D90AC0054D0F9 /* inc */,
+			);
+			path = UnionPay;
+			sourceTree = "<group>";
+		};
+		C8D5746F1B7D90AC0054D0F9 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				C85F17FA1C86D17D009DE5EE /* UPPaymentControl.h */,
+				C890EA921C868F710077E3DD /* UPAPayPlugin.h */,
+				C890EA931C868F710077E3DD /* UPAPayPluginDelegate.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8D573EB1B7D8DF00054D0F9 /* SHPaymentKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D574001B7D8DF00054D0F9 /* Build configuration list for PBXNativeTarget "SHPaymentKit" */;
+			buildPhases = (
+				C8D573E81B7D8DF00054D0F9 /* Sources */,
+				C8D573E91B7D8DF00054D0F9 /* Frameworks */,
+				C8D573EA1B7D8DF00054D0F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHPaymentKit;
+			productName = SHPaymentKit;
+			productReference = C8D573EC1B7D8DF00054D0F9 /* libSHPaymentKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8D573F61B7D8DF00054D0F9 /* SHPaymentKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D574031B7D8DF00054D0F9 /* Build configuration list for PBXNativeTarget "SHPaymentKitTests" */;
+			buildPhases = (
+				C8D573F31B7D8DF00054D0F9 /* Sources */,
+				C8D573F41B7D8DF00054D0F9 /* Frameworks */,
+				C8D573F51B7D8DF00054D0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D573FA1B7D8DF00054D0F9 /* PBXTargetDependency */,
+			);
+			name = SHPaymentKitTests;
+			productName = SHPaymentKitTests;
+			productReference = C8D573F71B7D8DF00054D0F9 /* SHPaymentKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D573E41B7D8DF00054D0F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = sh;
+				TargetAttributes = {
+					C86D36FA1B7D98000030611C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C8D573EB1B7D8DF00054D0F9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C8D573F61B7D8DF00054D0F9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NUAWCPG3VS;
+					};
+				};
+			};
+			buildConfigurationList = C8D573E71B7D8DF00054D0F9 /* Build configuration list for PBXProject "SHPaymentKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8D573E31B7D8DF00054D0F9;
+			productRefGroup = C8D573ED1B7D8DF00054D0F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8D573EB1B7D8DF00054D0F9 /* SHPaymentKit */,
+				C8D573F61B7D8DF00054D0F9 /* SHPaymentKitTests */,
+				C86D36FA1B7D98000030611C /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8D573F51B7D8DF00054D0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C86D36FE1B7D98060030611C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target SHPaymentKit ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n#xcodebuild -target SHShareKit -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target SHPaymentKit -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D573E81B7D8DF00054D0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82A68D1201824C100CE3E10 /* BTAPIClient.m in Sources */,
+				C82A68F3201824C100CE3E10 /* PPOTBillingAgreementRequest.m in Sources */,
+				C82A67232016D78E00CE3E10 /* SHPayPalPay.m in Sources */,
+				C82A6906201824C100CE3E10 /* PPOTAnalyticsTracker.m in Sources */,
+				C82A68CC201824C100CE3E10 /* BTAnalyticsMetadata.m in Sources */,
+				C82A68CF201824C100CE3E10 /* BTBinData.m in Sources */,
+				C82A6901201824C100CE3E10 /* PPOTError.m in Sources */,
+				C82A68D5201824C100CE3E10 /* BTPaymentMethodNonce.m in Sources */,
+				C82A68EE201824C100CE3E10 /* PPOTMacros.m in Sources */,
+				C82A68E0201824C100CE3E10 /* PPDataCollector.m in Sources */,
+				C82A68F1201824C100CE3E10 /* PPOTConfiguration.m in Sources */,
+				C82A68E9201824C100CE3E10 /* PPOTDevice.m in Sources */,
+				C86D38A71B7DE8270030611C /* SHAliPay.m in Sources */,
+				C82A68E3201824C100CE3E10 /* BTPayPalCreditFinancingAmount.m in Sources */,
+				C82A68E7201824C100CE3E10 /* PPOTJSONHelper.m in Sources */,
+				C82A68E2201824C100CE3E10 /* BTPayPalRequest.m in Sources */,
+				C82A68F5201824C100CE3E10 /* PPOTCheckoutAppSwitchRequest.m in Sources */,
+				C82A6904201824C100CE3E10 /* PPFPTITracker.m in Sources */,
+				C82A68FC201824C100CE3E10 /* PPOTAppSwitchResponse.m in Sources */,
+				C82A6907201824C100CE3E10 /* BTConfiguration+PayPal.m in Sources */,
+				C82A68F2201824C100CE3E10 /* PPOTOAuth2AppSwitchRequest.m in Sources */,
+				C82A68F0201824C100CE3E10 /* BTPayPalCreditFinancing.m in Sources */,
+				C82A68CE201824C100CE3E10 /* BTJSON.m in Sources */,
+				C82A68EA201824C100CE3E10 /* PPOTPinnedCertificates.m in Sources */,
+				C82A68D3201824C100CE3E10 /* BTPaymentMethodNonceParser.m in Sources */,
+				C82A68D6201824C100CE3E10 /* BTTokenizationService.m in Sources */,
+				C82A68F7201824C100CE3E10 /* PPOTOAuth2SwitchRequest.m in Sources */,
+				C82A68ED201824C100CE3E10 /* PPOTURLSession.m in Sources */,
+				C82A68D8201824C100CE3E10 /* BTHTTP.m in Sources */,
+				C82A68E8201824C100CE3E10 /* PPOTTime.m in Sources */,
+				C82A68FB201824C100CE3E10 /* PPOTResult.m in Sources */,
+				C82A68D2201824C100CE3E10 /* BTAnalyticsService.m in Sources */,
+				C82A68DE201824C100CE3E10 /* BTClientMetadata.m in Sources */,
+				C82A68CD201824C100CE3E10 /* BTClientToken.m in Sources */,
+				C82A68F9201824C100CE3E10 /* PPOTAppSwitchUtil.m in Sources */,
+				C82A68E6201824C100CE3E10 /* PPOTSimpleKeychain.m in Sources */,
+				C82A6903201824C100CE3E10 /* PPOTCheckoutBrowserSwitchRequest.m in Sources */,
+				C82A68F8201824C100CE3E10 /* PPOTCheckoutRequest.m in Sources */,
+				C82A68EB201824C100CE3E10 /* PPOTString.m in Sources */,
+				C82A68D7201824C100CE3E10 /* BTHTTPErrors.m in Sources */,
+				C82A68DB201824C100CE3E10 /* BTLogger.m in Sources */,
+				C82A68DD201824C100CE3E10 /* BTAPIPinnedCertificates.m in Sources */,
+				C82A68D4201824C100CE3E10 /* BTAppSwitch.m in Sources */,
+				C82A68EF201824C100CE3E10 /* BTPayPalDriver.m in Sources */,
+				C82A68FE201824C100CE3E10 /* PPOTCheckoutSwitchRequest.m in Sources */,
+				C82A68F6201824C100CE3E10 /* PPOTRequestFactory.m in Sources */,
+				C82A6900201824C100CE3E10 /* PPOTCore.m in Sources */,
+				C82A68F4201824C100CE3E10 /* PPOTOAuth2BrowserSwitchRequest.m in Sources */,
+				C82A68DF201824C100CE3E10 /* BTConfiguration.m in Sources */,
+				C82A68E4201824C100CE3E10 /* BTPayPalAccountNonce.m in Sources */,
+				C82A6905201824C100CE3E10 /* PPFPTIData.m in Sources */,
+				C8D573F21B7D8DF00054D0F9 /* SHPaymentKitManager.m in Sources */,
+				C82A68DA201824C100CE3E10 /* BTPostalAddress.m in Sources */,
+				C82A68D9201824C100CE3E10 /* BTAPIHTTP.m in Sources */,
+				C82A68D0201824C100CE3E10 /* BTURLUtils.m in Sources */,
+				C82A68DC201824C100CE3E10 /* BTKeychain.m in Sources */,
+				C82A68FD201824C100CE3E10 /* PPOTSwitchRequest.m in Sources */,
+				C82A68CB201824C100CE3E10 /* BTErrors.m in Sources */,
+				C82A68FA201824C100CE3E10 /* PPOTRequest.m in Sources */,
+				C86D38A41B7DE7E20030611C /* SHUnionPay.m in Sources */,
+				C82A68FF201824C100CE3E10 /* PPOTPersistentRequestData.m in Sources */,
+				C82A68E5201824C100CE3E10 /* BTPayPalRequestFactory.m in Sources */,
+				C82A6902201824C100CE3E10 /* PPOTAuthorizationRequest.m in Sources */,
+				C82A68EC201824C100CE3E10 /* PPOTEncryptionHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D573F31B7D8DF00054D0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8D573FA1B7D8DF00054D0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D573EB1B7D8DF00054D0F9 /* SHPaymentKit */;
+			targetProxy = C8D573F91B7D8DF00054D0F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C86D36FB1B7D98000030611C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C86D36FC1B7D98000030611C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8D573FE1B7D8DF00054D0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8D573FF1B7D8DF00054D0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8D574011B7D8DF00054D0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/AliPay",
+					"$(PROJECT_DIR)/SDKs/BrainTree",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/SDKs/UnionPay/libs/**",
+					"$(PROJECT_DIR)/SDKs/AliPay/**",
+					"$(PROJECT_DIR)/SDKs/BrainTree/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/AliPay",
+					"$(PROJECT_DIR)/SDKs/UnionPay/libs",
+					"$(PROJECT_DIR)/SDKs/BrainTree",
+					"$(PROJECT_DIR)/SDKs/BrainTree/BraintreePayPal/PayPalDataCollector/Risk",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		C8D574021B7D8DF00054D0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/AliPay",
+					"$(PROJECT_DIR)/SDKs/BrainTree",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/SDKs/UnionPay/libs/**",
+					"$(PROJECT_DIR)/SDKs/AliPay/**",
+					"$(PROJECT_DIR)/SDKs/BrainTree/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/AliPay",
+					"$(PROJECT_DIR)/SDKs/UnionPay/libs",
+					"$(PROJECT_DIR)/SDKs/BrainTree",
+					"$(PROJECT_DIR)/SDKs/BrainTree/BraintreePayPal/PayPalDataCollector/Risk",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		C8D574041B7D8DF00054D0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NUAWCPG3VS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SHPaymentKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sh.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8D574051B7D8DF00054D0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NUAWCPG3VS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SHPaymentKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sh.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C86D36FD1B7D98000030611C /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86D36FB1B7D98000030611C /* Debug */,
+				C86D36FC1B7D98000030611C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D573E71B7D8DF00054D0F9 /* Build configuration list for PBXProject "SHPaymentKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D573FE1B7D8DF00054D0F9 /* Debug */,
+				C8D573FF1B7D8DF00054D0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D574001B7D8DF00054D0F9 /* Build configuration list for PBXNativeTarget "SHPaymentKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D574011B7D8DF00054D0F9 /* Debug */,
+				C8D574021B7D8DF00054D0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D574031B7D8DF00054D0F9 /* Build configuration list for PBXNativeTarget "SHPaymentKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D574041B7D8DF00054D0F9 /* Debug */,
+				C8D574051B7D8DF00054D0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8D573E41B7D8DF00054D0F9 /* Project object */;
+}
