@@ -1,6 +1,8 @@
 # iOS_PaymentKit
 iOS自主封装的第三方支付接口合集静态库，App调用支付接口只需一行代码就可搞定
 
+ ![image](https://github.com/iRobin520/iOS_PaymentKit/blob/master/PaymentDemo/Resources/Images/screenshot.png)
+
 目前支持五种支付方式：微信支付、支付宝支付、银联支付、Apple Pay和Paypal支付, 有其他的支付方式可以自己加上去，可无限扩展，App调的的时候非常的方便，只需一行代码，下面我粘出这四种支付方式的Demo代码：
 
 ### 支付宝支付： 
